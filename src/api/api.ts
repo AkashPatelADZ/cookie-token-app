@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://cookie-token-server.onrender.com:8080/',
+  baseURL: 'https://cookie-token-server.onrender.com/',
   // baseURL: 'http://localhost:8080/',
-  timeout: 1000,
+  timeout: 30000,
   withCredentials: true,
 })
 
